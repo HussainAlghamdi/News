@@ -23,14 +23,14 @@ saudi arabia new is a news website built using php laravel, the website shows ne
 <div id="Key Features">
 
 ## Key Features:
-    
+
 - **Simple**, **Easy-To-Use** user interface
 - Admin dashboard with News statistic charts
 - Regular and **Advance** Search
 - **Browsing** news
 - Fully Crud Operations on **Comments**
 - Fully Crud Operations on **Articles**
-- Authentication and Authorisation for Admin
+- Authentication and Authorization for Admin
 
 </div>
 <div id="ERD">
@@ -49,6 +49,8 @@ saudi arabia new is a news website built using php laravel, the website shows ne
 - CSS
 - JavaScript
 - Tailwind
+- Nginx
+- AWS EC2
 
 </div>
 
