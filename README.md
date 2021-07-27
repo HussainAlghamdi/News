@@ -1,7 +1,7 @@
 <h1 align="center">Saudi Arabia News</h1>
 
-<div class="logo " style="font-family: 'Patua One', cursive;">
-    <span style="color: black; background: white; text-align: center; padding: 2px 5px; font-weight: bold; font-size: 24px;" >S</span>
+<div >
+    <span style="color: black; background: white; text-align: center; padding: 2px 5px; font-weight: bold; font-size: 24px;">S</span>
     <span style="color: black; background: white; text-align: center; padding: 2px 5px; font-weight: bold; font-size: 24px;">A</span>
     <span style="color: black; background: white; text-align: center; padding: 2px 5px; font-weight: bold; font-size: 24px;">N</span>
 
