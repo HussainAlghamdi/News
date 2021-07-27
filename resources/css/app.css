@@ -1,0 +1,157 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.nav-btn {
+    /* color: rgb(173, 223, 252); */
+    color: #fffcf9;
+    border: 0px;
+}
+
+.nav-btn:hover {
+    color:rgb(172, 170, 169) !important;
+    border: 0px;
+}
+
+.mobile-nav-btn {
+    border-color: rgb(59, 59, 59);
+    color: rgb(59, 59, 59);
+}
+
+.mobile-nav-btn:hover {
+    border-color:      black;
+    color:black !important;
+}
+.min-w-500
+{
+    min-width: 500px;
+}
+
+.logo span{
+    color: black;
+    background: white;
+    text-align: center;
+    padding: 2px 5px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.flex-0point4{
+    flex: 0.4;
+}
+
+.home-spliter {
+    flex: 0.08;
+    border-left: 1px solid #c7c5c5;
+}
+
+.home-cards > div{
+    border-bottom: 1px solid #c7c5c5;
+    padding-bottom: 15px;
+}
+
+.allnews-cards{
+    width: 430px;
+}
+
+.bg-custom1{
+    background-color: #282b28;
+}
+
+body{
+    background-color: #EEF0F2;
+}
+
+.image-card{
+    width: 500px;
+    height: 250px;
+    padding: 30px;
+    background-color: brown;
+    bottom: -86px;
+    left: 342px;
+    color: white;
+}
+
+.mt-140{
+    margin-top: 140px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-font
+{
+    font-family: 'Playfair Display', serif;
+}
+
+.content-font{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.min-h-700{
+    min-height: 700px;
+}
+
+.custom-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    margin-left: 8px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.content-p  *  img{
+    margin: auto;
+}
+
+.linkNav{
+    transition: 0.6s ease;
+}
+
+.linkNav:hover{
+    color: rgb(172, 170, 169);
+
+}
+
+a:hover{
+    color: #294C60;
+}
+
+.focus-div{
+    transition: box-shadow .4s;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 0 5px rgba(33,33,33,.2);
+}
+.focus-div:hover{
+    transition: box-shadow .4s;
+    background-color: rgb(209, 209, 209);
+    box-shadow: 0 0 20px rgba(33,33,33,.5);
+
+}
+
+
+/*
+
+
+comment
+
+margin: auto;
+    width: 600px;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+
+comment p
+
+padding-left: 15px;
+    border-left: 1px solid;
+    margin-left: 15px;
+
+
+
+*/
