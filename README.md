@@ -8,14 +8,22 @@
   <a href="#Technology Used">Technology Used</a>
 </p>
 <div id="Introduction">
+    
 ## Introduction 
+
 saudi arabia new is a news website built using php laravel, the website shows news from all around the world, which focus more on saudi news. the UI/UX of the website was specifically designed to fit the needs of news enthusiastic individuals,the front-end design was meant to be for the age group between 35-60 and makes it easier to browse the news and to comment on them
+    
 </div>
+
 <div id="demo">
-##Demo:
+
+## Demo:
+
 </div>
 <div id="Key Features">
+
 ## Key Features:
+    
 - **Simple**, **Easy-To-Use** user interface
 - Admin dashboard with News statistic charts
 - Regular and **Advance** Search
@@ -23,21 +31,27 @@ saudi arabia new is a news website built using php laravel, the website shows ne
 - Fully Crud Operations on **Comments**
 - Fully Crud Operations on **Articles**
 - Authentication and Authorisation for Admin
+
 </div>
 <div id="ERD">
+
 ## ERD:
+
 </div>
-<div id="WireFrame">
-## WireFrame:
-</div>
+
 <div id="Technology Used">
+
 ## Technology Used:
+
 - PHP Laravel
 - MySQL
 - HTML (blade)
 - CSS
 - JavaScript
 - Tailwind
+
 </div>
+
 ## Developer - المطور
+
 > Hussain Alghamdi 
