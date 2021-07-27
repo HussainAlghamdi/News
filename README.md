@@ -4,7 +4,6 @@
   <a href="#demo">Demo</a> •
   <a href="#Key Features">Key Features</a> •
   <a href="#ERD">ERD</a> •
-  <a href="#WireFrame">WireFrame</a> •
   <a href="#Technology Used">Technology Used</a>
 </p>
 <div id="Introduction">
