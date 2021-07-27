@@ -22,6 +22,7 @@
                 </p>
                 <h4 class="mt-2">{{ $news1[$i]->author_name }}</h4>
                 <h4>{{ $news1[$i]->date_publish }}</h4>
+                <h4>number of visitors : {{ $news1[$i]->number_visitors}}</h4>
                 <h4 class="pl-3 border-l-4 border-black mt-1">{{ $news1[$i]->category }}</h4>
                 <div class="mt-2">
                     <button type="button" class="btn btn-dark"><a style="color:white"
