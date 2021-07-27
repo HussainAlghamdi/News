@@ -13,7 +13,7 @@
         <div class="flex flex-wrap mt-20 px-5 justify-around">
             @for ($i = 0; $i < count($news1); $i++)
 
-            {{-- <img src="https://via.placeholder.com/450x250"> --}}
+
             <div class="custom-card focus-div rounded-xl p-4">
                 <img src="{{ $news1[$i]->thumbnail }}" style="width: 416px; height: 233px;">
                 <h2 class="text-2xl mt-2 title-font"><a href="{{ 'read/' . $news1[$i]->id }}">{{ $news1[$i]->title }}</a></h2>

@@ -17,22 +17,11 @@
                         $news_index = 0;
                     @endphp
 
-                    {{-- <img src="{{$news1[$news_index]->thumbnail}}" style="width: 150px; height: 100px;">
-                <div class="pl-3">
-                    <h2 class="text-2xl">{{$news1[$news_index]->title}}</h2>
-                    <p>
-                        {!! Str::substr($news1[$news_index]->content, 0, 10) . "..." !!}
-                    </p>
-                    <h4>{{$news1[$news_index]->author_name}}</h4>
-                    <h4>{{$news1[$news_index]->date_publish}}</h4>
-                    <h4>{{$news1[$news_index]->category}}</h4> --}}
-
-                    <div>
                         <div class="flex p-4 justify-around grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-4">
                             @foreach ($news1 as $news)
                             <div class="focus-div rounded-xl p-4" style="display: flex;flex-direction: column;justify-content: space-between;">
                                 <a href="{{ 'readNews/' . $news->id }}">
-                                    {{-- <img src="https://via.placeholder.com/450x250"> --}}
+
                                     <img src="../{{ $news->thumbnail }}" style="width: 416px; height: 233px;">
                                     <div>
                                         <h2 class="text-2xl mt-2 title-font">{{ $news->title }}</h2>
@@ -54,37 +43,7 @@
 
 
 
-                    {{-- <div class="container">
-
-                      <table class="table table-striped">
-
-                        <tr>
-                            <td> Title </td>
-                            <td> category </td>
-                            <td> author_name </td>
-                            <td> content </td>
-                            <td> date_publish </td>
-
-                        </tr>
-
-                        @foreach ($news1 as $news)
-                        <tr>
-                            <td>{{$news->title}}</td>
-                            <td>{{$news->category}}</td>
-                            <td>{{$news->author_name}}</td>
-                            <td>{!! $news->content !!}</td>
-                            <td>{{$news->date_publish}}</td>
-                        </tr>
-
-
-                        @endforeach
-
-                      </table>
-
-
-
-
-                    </div> --}}
+                 
                 </div>
             </div>
         </div>

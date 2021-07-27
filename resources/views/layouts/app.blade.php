@@ -16,14 +16,7 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
 
-        {{-- <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
-  <script type="text/javascript">
-  tinymce.init({
-    selector: '#mytextarea'
-  });
-</script> --}}
 
-{{-- <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script> --}}
 <title>Full Editor - Quill Rich Text Editor</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">

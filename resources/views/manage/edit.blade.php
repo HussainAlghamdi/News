@@ -36,7 +36,7 @@
                                     class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
                             </div>
                             <div class="form-group">
-                                {{-- <label for="usr">content:</label> --}}
+
                                 <div id="standalone-container">
                                     <div id="toolbar-container"></div>
                                     <div id="editor-container">{!! $news4->content !!}</div>
@@ -52,7 +52,7 @@
                                 <input hidden type="text" name="date_publish" value="{{ $news4->date_publish }}"
                                     class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
                             </div>
-                            {{-- <button type="button" onclick="Submit()" id="add-form" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"> test</button> --}}
+
                             <input type="submit" onclick="Submit()" id="add-form" value="update"
                                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
                         </form>
@@ -131,11 +131,7 @@
         function Submit() {
             let text = document.getElementById("editor-container").firstChild.innerHTML;
             document.getElementById("mytextarea").innerHTML = text;
-            //   var content = document.getElementById('editor-container').firstChild
-            //   var textArea = document.getElementById('mytextarea')
-            //   textArea.innerHTML = content.innerHTML
-            //   console.log(textArea.innerHTML)
-            //   document.getElementById('add-form').submit()
+
         }
     </script>
 

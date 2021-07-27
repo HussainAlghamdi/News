@@ -11,7 +11,7 @@
         <div class="flex mt-20 px-5 justify-around">
             @for ($i = 0; $i < 3; $i++)
                 @if ($news_index < count($news1))
-            {{-- <img src="https://via.placeholder.com/450x250"> --}}
+
             <div class="custom-card focus-div rounded-xl p-4"  style="margin-left: 8 px">
                 <img src="{{ $news1[$news_index]->thumbnail }}" style="width: 416px; height: 233px;">
                 <h2 class="text-2xl mt-2 title-font"><a href="{{ 'readNews/' . $news1[$news_index]->id }}">{{ $news1[$news_index]->title }}</a></h2>
@@ -32,7 +32,7 @@
         @for (; $news_index < count($news1); $news_index++)
 
             <div class="flex mb-3 focus-div rounded-xl p-4">
-                {{-- <img src="https://via.placeholder.com/150x100"> --}}
+
                 <img src="{{ $news1[$news_index]->thumbnail }}" style="width: 208px;">
                 <div class="pl-3">
                     <h2 class="text-2xl title-font"><a

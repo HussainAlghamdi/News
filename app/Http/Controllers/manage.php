@@ -31,9 +31,9 @@ class manage extends Controller
         ]);
     }
 
-    // public function display() {
-    //     return view('manage.AddNewsArticle');
-    // }
+
+
+
 
     public function viewAdmin()
     {
@@ -70,20 +70,20 @@ class manage extends Controller
 
             return redirect('allnews');
         }
-        // $Model::where('resolved', true)->get();
-        $arr2 = array('news2' => $news);
-        // var_dump($arr2);
 
-        // $id = $news->id;
-        // $news=Newsarticle::find($id);
+        $arr2 = array('news2' => $news);
+
+
+
+
         $news->number_visitors++;
         $news->save();
 
         return view('user.readNews', $arr2);
 
-        //   $news4=Newsarticle::find($news->id);
-        //     $arr3=array('news4'=>$news4);
-        //     return view('manage.read2',$arr3);
+
+
+
     }
 
 
@@ -152,7 +152,7 @@ class manage extends Controller
 
     public function search(Request $request)
     {
-        //    echo($request->input("query"));
+
         $news1 = Newsarticle::where('title', 'LIKE', '%' . $request->input("query") . '%')->latest()->get();
         $arr = array('news1' => $news1);
         return view('user.search', $arr);
@@ -165,7 +165,7 @@ class manage extends Controller
 
         if ($request->isMethod('post')) {
             $comment = Comment::find($id);
-            // $comment->name        = $request->input('name');
+
             $comment->comment     = $request->input('comment');
             $comment->is_approved    = $request->input('is_approved');
             $comment->is_hidden     = $request->input('is_hidden');
@@ -199,7 +199,7 @@ class manage extends Controller
                 $news1 = $news1->whereBetween('date_publish', [$from, $to]);
 
             $news1 = $news1->get();
-            // ( (DATE) AND (CATEGORY) AND (TITLE OR CONTENT OR AUTHOR))
+
 
             $arr = array('news1' => $news1);
             return view('user.search', $arr);

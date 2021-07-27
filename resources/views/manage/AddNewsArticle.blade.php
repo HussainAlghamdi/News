@@ -39,10 +39,7 @@
             <input hidden type="text" name="author_name" class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" >
         </div>
         <div class="form-group">
-            {{-- <label for="usr">content:</label>
-            <textarea id="mytextarea" rows="4" cols="50" name="content" class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
-            </textarea>
-            <img src="" width="150px" height="210px"  > --}}
+
             <div id="standalone-container">
                 <div id="toolbar-container"></div>
                 <div id="editor-container"></div>
@@ -57,7 +54,7 @@
             <input hidden type="text" name="date_publish" class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
         </div>
 
-        {{-- <tinymce-editor></tinymce-editor> --}}
+
 
         <button type="button" onclick="Submit()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"> add new <button>
     </form>
@@ -115,5 +112,5 @@
           }
       </script>
 
-    {{-- <script src="https://cdn.jsdelivr.net/npm/@tinymce/tinymce-webcomponent@1/dist/tinymce-webcomponent.min.js"></script> --}}
+
 </x-app-layout>
