@@ -54,6 +54,6 @@ saudi arabia new is a news website built using php laravel, the website shows ne
 
 </div>
 
-## Developer - المطور
+## Developer 
 
 > Hussain Alghamdi 
