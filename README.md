@@ -1,4 +1,12 @@
 <h1 align="center">Saudi Arabia News</h1>
+
+<div class="logo " style="font-family: 'Patua One', cursive;">
+    <span style="color: black; background: white; text-align: center; padding: 2px 5px; font-weight: bold; font-size: 24px;" >S</span>
+    <span style="color: black; background: white; text-align: center; padding: 2px 5px; font-weight: bold; font-size: 24px;">A</span>
+    <span style="color: black; background: white; text-align: center; padding: 2px 5px; font-weight: bold; font-size: 24px;">N</span>
+
+</div>
+                
 <p align="center">
   <a href="#Introduction">Introduction</a> •
   <a href="#demo">Demo</a> •
@@ -17,8 +25,11 @@ saudi arabia new is a news website built using php laravel, the website shows ne
 <div id="demo">
 
 ## Demo:
+    
+[Check it here](http://157.175.57.12/)
 
 </div>
+
 <div id="Key Features">
 
 ## Key Features:
@@ -32,9 +43,13 @@ saudi arabia new is a news website built using php laravel, the website shows ne
 - Authentication and Authorization for Admin
 
 </div>
+
 <div id="ERD">
 
 ## ERD:
+    
+<img src="./ERD.png" alt="erd"/>
+
 
 </div>
 
