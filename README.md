@@ -1,11 +1,12 @@
-<h1 align="center">Saudi Arabia News</h1>
-
-<div >
+<h1 align="center">Saudi Arabia News (
     <span style="color: black; background: white; text-align: center; padding: 2px 5px; font-weight: bold; font-size: 24px;">S</span>
     <span style="color: black; background: white; text-align: center; padding: 2px 5px; font-weight: bold; font-size: 24px;">A</span>
     <span style="color: black; background: white; text-align: center; padding: 2px 5px; font-weight: bold; font-size: 24px;">N</span>
+)
+    
+</h1>
 
-</div>
+
                 
 <p align="center">
   <a href="#Introduction">Introduction</a> •
@@ -18,7 +19,7 @@
     
 ## Introduction 
 
-saudi arabia new is a news website built using php laravel, the website shows news from all around the world, which focus more on saudi news. the UI/UX of the website was specifically designed to fit the needs of news enthusiastic individuals,the front-end design was meant to be for the age group between 35-60 and makes it easier to browse the news and to comment on them
+Saudi arabia news is a news website built using php laravel, the website shows news from all around the world, which focus more on Saudi news. the UI/UX of the website was specifically designed to fit the needs of news enthusiastic individuals,the front-end design was meant to be for the age group between 35-60 and makes it easier to browse the news and to comment on them
     
 </div>
 
