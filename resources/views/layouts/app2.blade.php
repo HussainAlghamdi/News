@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>SAN</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -164,7 +164,7 @@
 
 
         </div>
-      </header>
+    </header>
 
 
         <!-- Page Heading -->
@@ -242,9 +242,21 @@
     </nav> --}}
 
 
-                    @yield('content')
+        @yield('content')
 
+        <!-- footer -->
+<footer class="footer bg-custom1 relative pt-1">
 
+    <div class="container mx-auto px-6">
+        <div class="mt-0 flex flex-col items-center">
+            <div class="sm:w-2/3 text-center py-6">
+                <p class="text-sm  font-bold mb-2" style="color: white">
+                    ©2021 Saudi Arabia News
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
 

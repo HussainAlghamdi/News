@@ -5,7 +5,9 @@
                 <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
             </a>
         </x-slot>
-
+        <div class="flex justify-center font-bold">
+            <h2 >Only for administrators</h2>
+        </div>
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
 

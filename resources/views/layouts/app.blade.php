@@ -71,5 +71,19 @@
                 {{ $slot }}
             </main>
         </div>
+
+                <!-- footer -->
+        <footer class="footer bg-custom1 relative pt-1">
+
+            <div class="container mx-auto px-6">
+                <div class="mt-0 flex flex-col items-center">
+                    <div class="sm:w-2/3 text-center py-6">
+                        <p class="text-sm  font-bold mb-2" style="color: white">
+                            ©2021 Saudi Arabia News
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

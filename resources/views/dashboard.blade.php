@@ -9,14 +9,14 @@
     <div class="py-12">
         <div class=" mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="flex justify-center p-6 bg-white border-b border-gray-200" style="height: 500px">
-
-                    <div id="chart" style="height: 600px;width:600px">
-
+                <div class="flex justify-center pb-12 p-6 bg-white border-b border-gray-200" style="height: 550px">
+                   <div class="border-r-8 mr-3 ">
+                       <h3 class="">News statistics by categories</h3>
+                       <div id="chart" style=" height: 600px;width:600px"> </div>
                     </div>
-
-                    <div id="chart2" style="height: 600px;width:600px">
-
+                    <div class=" ">
+                        <h6 class=""> Comments statistics  </h6>
+                        <div id="chart2" style="height: 600px;width:600px"></div>
                     </div>
 
                 </div>
