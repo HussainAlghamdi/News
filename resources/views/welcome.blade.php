@@ -45,7 +45,7 @@
                         <a href="{{'readNews/' . $news1[$news_index]->id}}">
                         <div class="flex mb-2 focus-div rounded-xl p-2">
 
-                            <img src="{{$news1[$news_index]->thumbnail}}" style="width: 276px; height: 125px;">
+                            <img src="{{$news1[$news_index]->thumbnail}}" style="max-width: 276px; max-height: 125px;">
                             <div class="pl-3">
                                 <h6 class="text-xl title-font">{{$news1[$news_index]->title}}</h6>
                                 <p class="content-font">
