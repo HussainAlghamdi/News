@@ -6,6 +6,9 @@
     
 </h1>
 
+<p align="center">
+<img src="./logo_2.png" alt="Logo" width="170" height="80" >
+</p>
 
                 
 <p align="center">
