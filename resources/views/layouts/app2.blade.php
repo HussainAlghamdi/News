@@ -16,12 +16,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
-    
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/cfa6f72dd4.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}"  type="text/css">
 
     <script src="https://cdn.jsdelivr.net/npm/kutty@latest/dist/alpinejs.min.js"></script>
     <!-- And then the single component -->
@@ -37,22 +37,22 @@
 </head>
 
 <body class="antialiased">
-    
+
 
     <header class="z-30 w-full px-2 py-2 bg-custom1 shadow sm:px-4">
         <div class="flex items-center justify-between mx-auto max-w-7xl">
           <div class="flex items-center space-x-3">
 
-            
+
             <div class="inline-flex md:hidden" x-data="{ open: false }">
               <button class="flex-none px-2 btn btn-white btn-sm" @click="open = true">
                 <i class="fas fa-bars"></i>
-                
+
               </button>
               <div class="absolute top-0 left-0 right-0 z-50 flex flex-col p-2 m-2 space-y-2 bg-custom1 rounded shadow" x-show.transition="open" @click.away="open = false" x-cloak>
                 <button class="self-start flex-none px-2 btn bg-white btn-icon" @click="open = false">
                     <i class="far fa-window-close"></i>
-                  
+
                 </button>
                 <a class="btn btn-sm btn-icon nav-btn" href="/">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="mr-2">
@@ -88,8 +88,8 @@
 
               </div>
             </div>
-                
-                
+
+
             <a href="/" title="Kutty Home Page" class="flex items-center">
                 <div class="logo "  style="font-family: 'Patua One', cursive;">
                     <span>S</span>
@@ -138,9 +138,9 @@
             </a>
 
 
-                
+
           </div>
-            
+
             <div class="search-section">
                 {{-- <input>
                 <button>
@@ -161,12 +161,12 @@
                 </form>
             </div>
 
-            
+
 
         </div>
       </header>
 
-    
+
         <!-- Page Heading -->
         <header class="bg-white shadow">
             <div class=" max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8" style="font-family: 'Patua One', cursive;" >
