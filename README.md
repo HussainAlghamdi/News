@@ -53,7 +53,7 @@ Saudi arabia news is a news website built using php laravel, the website shows n
 
 
 # Installation
-After cloning the repo, make sure you edit the `.env` file (see `.env.example`) to accomodate your database name and credentials, and be sure to create the database in advance in MySQL (e.g. `CREATE DATABASE <database-name>`). Then, install all composer dependencies, followed by npm dependencies installation and building as shown below:
+After cloning the repo, make sure you edit the `.env` file (see `.env.example`) to accomodate your database name and credentials, and be sure to create the database in advance in MySQL (e.g. `CREATE DATABASE newsws`). Then, install all composer dependencies, followed by npm dependencies installation and building as shown below:
     
    ```sh
    ### 1- Install composer dependencies   
