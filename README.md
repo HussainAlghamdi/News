@@ -14,7 +14,7 @@
 </p>
 <div id="Introduction">
     
-## Introduction 
+# Introduction 
 
 Saudi arabia news is a news website built using php laravel, the website shows news from all around the world, which focus more on Saudi news. the UI/UX of the website was specifically designed to fit the needs of news enthusiastic individuals,the front-end design was meant to be for the age group between 35-60 and makes it easier to browse the news and to comment on them
     
@@ -22,7 +22,7 @@ Saudi arabia news is a news website built using php laravel, the website shows n
 
 <div id="demo">
 
-## Demo
+# Demo
     
 [Check it here](http://157.175.57.12/)
 
@@ -30,7 +30,7 @@ Saudi arabia news is a news website built using php laravel, the website shows n
 
 <div id="Key Features">
 
-## Key Features
+# Key Features
 
 - **Simple**, **Easy-To-Use** user interface
 - Admin dashboard with News statistic charts
@@ -44,7 +44,33 @@ Saudi arabia news is a news website built using php laravel, the website shows n
 
 <div id="ERD">
 
-## Entity-Relation Diagram
+# Development Prerequisites
+* PHP >= 7.4
+* Composer >=  2.1
+* XAMPP => 7.4
+* Node => 14.17
+* MySQL => 8.0
+
+
+# Installation
+After cloning the repo, make sure you edit the `.env` file (see `.env.example`) to accomodate your database name and credentials, and be sure to create the database in advance in MySQL (e.g. `CREATE DATABASE <database-name>`). Then, install all composer dependencies, followed by npm dependencies installation and building as shown below:
+    
+   ```sh
+   ### 1- Install composer dependencies   
+   composer install
+   ### 2- Install npm dependencies
+   npm install
+   ### 3- Build for a development environment
+   npm run dev
+   ### 4- Make the database migrations and start seeding
+   php artisan migrate --seed
+   ### 5- Make the file uploads storage folder publicly accessable
+   php artisan storage:link
+   ### 6- Start serving the project locally :)
+   php artisan serve
+   ```
+
+# Entity-Relation Diagram
     
 <div align="center">
 <img src="./ERD.png" alt="Logo" width="700">
