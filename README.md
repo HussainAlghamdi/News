@@ -69,6 +69,14 @@ After cloning the repo, make sure you edit the `.env` file (see `.env.example`) 
    ### 6- Start serving the project locally :)
    php artisan serve
    ```
+    
+A default administrator account will be created, with the following credentials:
+
+
+> Email: admin@san.com
+    
+> Password: 12345678
+  
 
 # Entity-Relation Diagram
     
