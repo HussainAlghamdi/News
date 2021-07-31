@@ -1,5 +1,3 @@
-
-
 <nav class="flex justify-between bg-custom1 text-white px-3 py-3 items-center title-font">
     <div class="flex">
         <!-- Logo -->
@@ -11,24 +9,17 @@
 
         <!-- Navigation Links -->
         <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')" class="text-white" style="text-decoration: none; font-family: 'Arvo', serif;">
+            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')" class="text-white"
+                style="text-decoration: none; font-family: 'Arvo', serif;">
                 {{ __('Dashboard') }}
             </x-nav-link>
         </div>
         <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-            <x-nav-link :href="route('viewAdmin')" :active="request()->routeIs('viewAdmin')" class="text-white" style="text-decoration: none; font-family: 'Arvo', serif;">
+            <x-nav-link :href="route('allnews')" :active="request()->routeIs('allnews')" class="text-white"
+                style="text-decoration: none; font-family: 'Arvo', serif;">
                 {{ __('Manage Articles') }}
             </x-nav-link>
         </div>
-
-        <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-            <x-nav-link :href="route('allnewsAdmin')" :active="request()->routeIs('allnewsAdmin')" class="text-white" style="text-decoration: none; font-family: 'Arvo', serif;">
-                {{ __('Articles') }}
-            </x-nav-link>
-        </div>
-
-
-
     </div>
 
     <!-- Settings Dropdown -->

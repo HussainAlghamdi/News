@@ -11,10 +11,10 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
                     <div class="container">
-                        <form action="/edit/{{ $news4->id }}" enctype="multipart/form-data" method="POST"
+                        <form action="/newsarticles/{{ $news4->id }}" enctype="multipart/form-data" method="POST"
                             class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-                            {{ csrf_field() }}
-
+                            @method('PUT')
+                            @csrf
                             <div class="form-group">
                                 <label for="usr">thumbnail :</label>
                                 <input required type="file" name="thumbnail"

@@ -19,7 +19,7 @@ class CreateComments extends Migration
             $table->text('comment');
             $table->boolean('is_approved')->default(false);
             $table->boolean('is_hidden')->default(false);
-            $table->foreignId('newsarticle_id')->constrained();
+            $table->foreignId('newsarticle_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
         });
     }
