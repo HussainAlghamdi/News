@@ -17,7 +17,7 @@
 
     <div class="flex mt-20 px-5 mx-4 mb-3" style="width: 96vw">
         <div class="mx-5 flex-1 focus-div rounded-xl p-2">
-            <a href="{{'readNews/' . $news1[0]->id}}">
+            <a href="/newsarticles/{{ $news1[0]->id}}">
 
             <img src="{{$news1[0]->thumbnail}}" style="width: 625px; height: 350px;">
             <h2 class="text-4xl mt-4 title-font">{{$news1[0]->title}}</h2>
@@ -42,10 +42,10 @@
                 <div id="latest-{{ $i+1 }}" {{ ($i+1) == 1  ? '' : 'hidden' }} class="home-cards " style="min-height: 530px">
                     @for ($j =0 ; $j < 3; $j++)
                         @if ( $news_index < count($news1))
-                        <a href="{{'readNews/' . $news1[$news_index]->id}}">
+                        <a href="/newsarticles/{{ $news1[$news_index]->id}}">
                         <div class="flex mb-2 focus-div rounded-xl p-2">
 
-                            <img src="{{$news1[$news_index]->thumbnail}}" style="max-width: 276px; max-height: 125px;">
+                            <img src="/{{$news1[$news_index]->thumbnail}}" style="max-width: 276px; max-height: 125px;">
                             <div class="pl-3">
                                 <h6 class="text-xl title-font">{{$news1[$news_index]->title}}</h6>
                                 <p class="content-font">
