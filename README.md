@@ -25,6 +25,8 @@ Saudi arabia news is a news website built using php laravel, the website shows n
 # Demo
     
 [Check it here](http://157.175.57.12/)
+    
+[or here (refactored version)](http://15.185.118.34/)
 
 </div>
 
